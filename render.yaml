@@ -1,0 +1,9 @@
+
+services:
+  - type: web
+    name: floricultura-lacos-eternos
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars: []
